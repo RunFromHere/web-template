@@ -1,0 +1,11 @@
+listen: "8088"
+
+logLevel: debug
+logFile: "./logs/koala.log"
+routerLogFile: "./logs/router.log"
+
+logColor: false #有颜色, 只能在控制台输出有颜色的日志,能用于调试,但是文件有乱码,不能用于实际使用
+logMaxSize: 100
+logMaxBackups: 10
+logMaxAge: 7
+
